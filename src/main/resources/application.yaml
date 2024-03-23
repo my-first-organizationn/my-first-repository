@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://aws-0-us-east-1.pooler.supabase.com:5432/postgres
+    username: postgres.zmvoqkvjvhzbywoldwvj
+    password: e)rpQ7_3SJzTs2/
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
