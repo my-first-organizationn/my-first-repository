@@ -16,7 +16,7 @@ import java.util.List;
 public class UserController {
     private final UserService userService;
 
-    @PostMapping()
+    @PostMapping("/register")
     public ResponseEntity<UserResponseDto> create(@RequestBody UserCreateDto userCreateDto) {
         UserResponseDto responseDto = userService.create(userCreateDto);
         return ResponseEntity
